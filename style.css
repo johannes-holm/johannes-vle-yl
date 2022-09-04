@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,700&family=Lobster&family=Montserrat:wght@600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+header h1 {
+
+    font-family: "Lobster";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    color: #000000;
+    line-height: 70px;
+    text-shadow: 2px 2px 8px #9f9c9c;
+
+}
+
+header h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+
+.gallery-image img {
+    width: 100%;
+
+}
+
+header .pealkiri {
+    background-position: center;
+}
+
+header .header-taust {
+    background-image: url("pildid/taust.jpg");
+    width: 100%;
+    height: calc(100vh - 350px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+header .header-banner {
+
+    background-image: url("pildid/toit.jpg");
+    width: 100%;
+    height: calc(100vh - 350px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 5%;
+    object-fit: cover;
+
+}
+
+header .logo {
+
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 1px 0;
+
+}
+
+header .moto {
+
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1px 0 10px 0;
+
+}
+
+
+header nav ul {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /*IE*/
+    width: fit-content;
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+    padding: 16px 16px;
+
+}
+
+nav ul li a {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.kokad {
+    display: none;
+}
+
+footer {
+
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #172029;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+
+.disclaimer {
+
+    display: none;
+
+}
+
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+
+}
+
+footer ul li {
+
+    display: block;
+    padding: 0 0 10px 0;
+
+}
+
+footer ul li p {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+footer ul li a {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.footer-sm {
+
+    width: 32px;
+    float: right;
+
+}
+
+.footer-sm img {
+
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+hr {
+
+    color: #4f5663;
+    border-width: 2px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+}
+
+.gallery-h2 {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: #3a383d;
+    text-transform: uppercase;
+    text-align: start;
+
+}
+
+.gallery-p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: #3a383d;
+}
+
+.gallery-image {
+
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+
+}
+
+main img {
+    border-radius: 50%;
+}
+
+
+.post-header {
+
+    /*kujundus*/
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px #000000;
+    -webkit-text-stroke: 0.5px rgb(254, 254, 254);
+
+    /*positsioneerimine*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+@media only screen and (min-width: 950px) {
+
+    header .header-banner {
+
+        height: calc(100vh - 400px);
+
+    }
+
+    header h1 a {
+
+        font-size: 80px;
+
+    }
+
+    header h2 {
+
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+    header nav ul li {
+
+        padding: 16px 42px;
+
+    }
+
+}
+
+@media only screen and (min-width: 950px) {
+
+    .kokad{
+        display:flex;
+        float: right;
+        justify-content:end;
+        
+        
+    }
+
+    .kokad img{
+        width:60%;
+        border-radius:10%
+    }
+
+}
